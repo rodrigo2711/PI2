@@ -8,4 +8,4 @@ while True:
    time.sleep(0.5)
    GPIO.output("P8_10", GPIO.LOW)
    time.sleep(0.5)
-GPIO.cleanup        
+GPIO.cleanup()
