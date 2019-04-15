@@ -1,0 +1,12 @@
+#acionamento do relé
+
+import Adafruit_BBIO.GPIO as GPIO
+import time
+rele = "P8_10"            
+GPIO.setup(rele, GPIO.OUT)
+     
+GPIO.output(rele, GPIO.HIGH)
+time.sleep(2)
+GPIO.output(rele, GPIO.LOW)
+   
+        
